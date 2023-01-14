@@ -242,46 +242,6 @@ margin: 20px;
     text-align: center;
     display: flex;
 }
-.images{
-    margin-bottom: 200em;
-    padding: 0px;
-    box-sizing: border-box;
-    
-    opacity: 0.6; 
-}
-.tajamahal{
-    width: 100%;
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-self: center; 
-     
-}
-.taja{
-    margin: -0.1500em;
-    margin-left: 40em;
-    height: 300px ;
-    width: 300px;
-    border-radius: 50%;
-    border: 10px,solid,#f4f4f4  ;
-}
-.chariminar{
-    width: 100%;
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-self: center; 
-    
-     
-}
-.char{
-   margin: -21em;
-   margin-right: 30em;
-    height: 300px ;
-    width: 300px;
-    border-radius: 50%;
-    border: 10px,solid,#f4f4f4  ;  
-}
 .about{
     
     margin: 1em;
@@ -316,6 +276,67 @@ opacity: 0.8;
 }
 .input:hover{
     box-shadow: 0 10px 14px 0 rgba(238, 114, 114, 0.959), 0 17px 50px 0 rgba(231, 98, 98, 0.928);
+}
+
+.images{
+    align-items: center;
+justify-content: center;
+display: flex;
+}
+.card {
+    
+    box-shadow: 0 4px 8px 0 rgba(11, 234, 63, 0.771);
+    transition: 0.3s;
+    color: rgb(249, 240, 240);
+    width: 300px;
+    height: 400px;
+    background-color: rgb(31, 30, 30);
+    margin-left: 20px;
+    opacity: 0.7;
+    text-align: center;
+    padding: 10px;
+}
+.card img{
+    margin-top: 20px;
+    height: 100px;
+    width: auto;
+}
+.card button{
+    border: none;
+    height: 40px;
+    width: auto;
+    border-radius: 5px;
+    background-color: rgb(5, 253, 5);
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .card button:hover{
+    background-color: rgb(30, 108, 30);
+    color: white;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(247, 6, 6, 0.89);
+  }
+  .img.align-left{
+    float: left;
+    margin-left:10px ;
+
+  }
+  .image.aligin-right{
+    float: right;
+    margin: 10px;
+  }
+  .medium{
+    width: 200px;
+    height: 210px;
+  }
+  .ladakh{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://static.toiimg.com/photo/87726041.cms");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 
